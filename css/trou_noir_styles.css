@@ -1,0 +1,57 @@
+img{
+    max-width: 400px;
+    max-height: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+    transition: 2s;
+}
+h1 {
+    color: rgb(14, 52, 165);
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
+    transition: 2s;
+}
+h2{
+    color: orangered;
+    transition: 1.5s;
+}
+body {
+    background-color: dimgray; 
+}
+a{
+    transition: 2s;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+img:hover{
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-in;  
+}
+h3{
+    transition: 1s;
+}
+h3:hover{
+    color: rgb(255, 240, 222);
+}
+h1:hover{
+    color: rgb(255, 0, 0);
+}
+h2:hover{
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+strong:hover{
+    cursor: progress;
+}

@@ -1,0 +1,53 @@
+h1 {
+    color: royalblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(116, 0, 0);
+    transition: 2s;
+}
+h2{
+    color: orangered;
+}
+img {
+    max-width : 350px;
+    max-height: 350px;
+    margin-right: 150px;
+    margin-left: 150px;
+    transition: 1.6s;
+}
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: url("https://images.theconversation.com/files/158615/original/image-20170227-26326-96cs39.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1000&fit=clip") 
+}
+h3{
+    color: beige;
+    transition: 1s;
+}
+u{
+    color: orangered;
+}
+h1,h2,h3{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+a{
+    color: blue;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+h3:hover{
+    color: rgb(87, 174, 245);
+}
+img:hover{
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    cursor: zoom-in;  
+}
+h1:hover{
+    color: rgb(255, 92, 92);
+}
+h2:hover{
+    text-decoration: underline;
+}
