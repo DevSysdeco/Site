@@ -67,5 +67,22 @@
 <h3>
     Le sol de mars est stérile a la surface c'est sur mais peut-être pas en sous sol car il peut y avoir des retenus d'eau en petites quantité avec de le vie, surement monocellulaires
 </h3>
-<p>Autre petite modif</p>
+
+<p id="testjs">
+
+</p>
+
+<button id="testboutonjs"> incrementer </button>
+
+<script lang="js">
+    var count = 0;
+
+    document.querySelector("#testjs").innerHTML = "test " + count;
+
+    document.querySelector("#testboutonjs").addEventListener("click", function() {
+        count++;
+        document.querySelector("#testjs").innerHTML = "test " + count;
+    }); 
+</script> 
+
 </body>
