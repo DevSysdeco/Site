@@ -51,3 +51,7 @@ h1:hover{
 h2:hover{
     text-decoration: underline;
 }
+form{
+    color: beige;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>Prmier site sur l'astonaumie</title>
+    <title>Premier site sur l'astonaumie</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -8,6 +8,31 @@
 <h1>
     Premier site sur l'astronaumie.
 </h1>
+<form id="formulaire" onsubmit="return false;">
+  <ul>
+    <li>
+      <label for="name">Nom&nbsp;:</label>
+      <input type="text" id="name"  />
+    </li>
+    <li>
+      <label for="Prénom">Prénom&nbsp;:</label>
+      <input type="text" id="prenom"/>
+    </li>
+  </ul>
+  <button id="#test" onclick="valider()">valider</button>
+</form>
+<p class="test" style="color :white"> Valeur par défaut </p>
+<script>
+    
+
+    function valider(){
+        var nom = document.querySelector("#name").value;
+        var prenom = document.querySelector("#prenom").value;
+        alert(nom + " " + prenom);
+        var emplacementRes = document.querySelector(".test");
+        emplacementRes.innerHTML = "gdfg";
+    }
+</script>
 <h1>
     Commençons par l'ISS:
 </h1>
